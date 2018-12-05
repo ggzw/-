@@ -1,0 +1,5 @@
+/data/中有拼音输入文件input.txt和转换结果文件output.txt。以及训练好的文件以便快速调用。
+/src/中有三个文件：
+	train.py是用来训练的。使用方法为：python train.py /path/to/sina_news_gbk/ /path/to/一二级汉字表.txt /path/to/拼音汉字表.txt
+	translation.py是将输入的拼音文件转化为汉字输出到output.txt中的，使用方法为：python translation.py ../data/input.txt ../data/output.txt 
+	acc.py是用来计算准确率的。使用方法：python acc.py
